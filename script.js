@@ -7,6 +7,12 @@ btn.addEventListener('click', function(){
     }
     getWeather(value);
 })
+input.addEventListener('keydown', function(e){
+    if(e.key === 'Enter'){
+        const value = input.value;
+        getWeather(value);
+    }
+})
 
 
 async function getWeather(city) {
