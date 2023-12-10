@@ -42,6 +42,6 @@ async function getWeather(city) {
    <p>Description: ${data.weather[0].description}</p>
    <p>Humidity: ${data.main.humidity}%</p>
    <p>Wind Speed: ${data.wind.speed} m/s</p>
-   <p>Wind Direction: Wind Direction: ${data.wind.deg}°</p>
+   <p>Wind Direction: ${data.wind.deg}°</p>
    `;
   }
